@@ -1,13 +1,13 @@
 ﻿namespace LocalIdentity.SimpleInfra.Domain.Common.Caching;
 
-public class CacheEntyOptions
+public class CacheEntryOptions
 {
-    public CacheEntyOptions()
+    public CacheEntryOptions()
     {
         
     }
 
-    public CacheEntyOptions(TimeSpan? absoluteExpirationRelativeToNow, TimeSpan? slidingExpiration)
+    public CacheEntryOptions(TimeSpan? absoluteExpirationRelativeToNow, TimeSpan? slidingExpiration)
     {
         AbsoluteExpirationRelativeToNow = absoluteExpirationRelativeToNow;
         SlidingExpiration = slidingExpiration;
